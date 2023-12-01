@@ -326,7 +326,7 @@ public class HelloController {
     @FXML
     void SpPatient(ActionEvent event) {
         Menu.setVisible(false);
-        IstoriaBolezni.setVisible(true);
+        SpisokPatientov.setVisible(true);
 
         PatID.setCellValueFactory(new PropertyValueFactory<Patient,Integer>("IdPatient"));
         PatNomerPol.setCellValueFactory(new PropertyValueFactory<Patient,String>("InsurancePolicyNumber"));
